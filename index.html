@@ -3,8 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="descripchion" content="It school in Belarus" />
+    <meta name="Keywords" content="HTML,CSS,JavaScript,React" />
+    <meta name="autor" content="Brovchyk Dmitriy" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>test less</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Lesson 3</h1>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+    </ul>
+    <h2>User table</h2>
+    <table border="1" width="50%">
+      <caption>
+        Users
+      </caption>
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+          <th colspan="2">Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+          <td>123</td>
+          <td>3905558</td>
+        </tr>
+        <tr>
+          <td>johh</td>
+          <td>Dilan</td>
+          <td>12</td>
+          <td rowspan="2">1234</td>
+          <td>3905558</td>
+        </tr>
+        <tr>
+          <td>Prise</td>
+          <td>Scarlet</td>
+          <td>36</td>
+          <td>3905558</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Average age</td>
+          <td>75</td>
+          <td colspan="2">-</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h2>Demographic syrvey</h2>
+    <form >
+      <fieldset>
+        <legend>General</legend>
+      <p>
+        <label for="name"> Name</label><br />
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Your name"
+        /><br />
+      </p>
+      <p>
+        <label for="email"> Email</label><br />
+        <input id="email" type="email" name="email" placeholder="Your email" />
+      </p>
+      <p>
+        <label for="gender">Gender</label><br />
+        <select name="gender" id="gender">
+          <option disabled selected>Plese select</option>
+          <option value="1">Male</option>
+          <option value="2">female</option>
+        </select>
+      </p>
+      <p>
+        Age<br />
+        <input id="age-1" type="radio" name="age" value="1" />
+        <label for="age-1">18-25</label><br />
+        <input id="age-2" type="radio" name="age" value="2" />
+        <label for="age-2">26-32</label><br />
+        <input id="age-3" type="radio" name="age" value="3" />
+        <label for="age-3">33-39</label><br />
+        <input id="age-4" type="radio" name="age" value="4" />
+        <label for="age-4">40-46</label><br />
+        <input id="age-5" type="radio" name="age" value="5" />
+        <label for="age-5">47-51</label><br />
+        <input id="age-6" type="radio" name="age" value="6" />
+        <label for="age-6 ">52 and more</label>
+      </p>  
+      </fieldset>
+      <fieldset>
+        <legend>Additional</legend>
+       <p>
+        <label for="English">Youre English level</label><br />
+        <input
+          id="English"
+          type="range"
+          name="English"
+          min="0"
+          max="10"
+          value="8"
+        />
+      </p>
+      <p>
+        <p>
+          Whish continent did you visited<br />
+          <input id="continent" type="checkbox" name="continent" value="1" />
+          <label for="continent">Africa</label><br />
+          <input id="continent" type="checkbox" name="continent" value="2" />
+          <label for="continent">Antarctika</label><br />
+          <input id="continent" type="checkbox" name="continent" value="3" />
+          <label for="continent">Asia</label><br />
+          <input id="continent" type="checkbox" name="continent" value="4" />
+          <label for="continent">Australia</label><br />
+          <input id="continent" type="checkbox" name="continent" value="5" />
+          <label for="continent">Europe</label><br />
+          <input id="continent" type="checkbox" name="continent" value="6" />
+          <label for="continent">North America</label><br>
+          <input id="continent" type="checkbox" name="continent" value="7" /> 
+          <label for="continent">South America</label>
+        </p> 
+      </p>
+      <p>
+      <label for="Coment">Coment</label> <br>
+      <textarea name="Coment" id="Coment" cols="30" rows="10" placeholder="Your Coment" ></textarea>
+      </p> 
+      </fieldset>
+      <p>
+        <button>Send</button>
+      </p>
+    </form>
+  </body>
 </html>
