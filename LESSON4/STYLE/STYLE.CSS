@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+}
+
+#title {
+  color: rgb(224, 16, 16);
+  text-align: center;
+}
+.priemary {
+  color: aqua;
+}
+input[type="text"] {
+  color: blue;
+}
+.priemary:hover {
+  color: blueviolet;
+}
+p::before {
+  content: "1, ";
+  color: rgb(47, 50, 95);
+}
+.wraper p {
+  color: darkorange;
+}
+.wraper > p {
+  color: rgb(240, 240, 14);
+}

@@ -1,0 +1,16 @@
+.elloy {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 4px;
+  background-color: yellow;
+}
+.glava {
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 75px 100px;
+}
