@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.size {
+  margin-left: 65px;
+}
+.glava {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  margin-top: 110px;
+  /* margin-left: 40px; */
+  text-align: center;
+}
+.elloy {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4px;
+  width: 200px;
+  background-color: yellow;
+}
+.flex {
+  margin-top: 80px;
+  margin-left: 99px;
+  display: flex;
+  justify-content: space-around;
+}
+.secondText {
+  margin-left: -20px;
+  margin-top: 40px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
