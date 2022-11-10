@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(./img/castelmezzano-1979546\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.cap {
+  float: left;
+  white-space: nowrap;
+}
+
+.margin {
+  margin: 0px 50px;
+}
+.wraper {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 380px;
+  height: 30px;
+  margin-top: 55px;
+  margin-left: 575px;
+}
+.fonts {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.sun {
+  background: url(./img/bottonimg/Night.png) no-repeat;
+  height: 32px;
+  width: 32px;
+  margin-left: 695px;
+  margin-right: 15px;
+  border: none;
+}
+.man {
+  background: url(./img/bottonimg/AccountCircle.png) no-repeat;
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+.Stays {
+  margin-left: 600px;
+}
